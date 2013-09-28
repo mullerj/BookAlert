@@ -2,8 +2,8 @@
 if (isset($_GET['add'])){
 echo "You provided an ISBN<p>";
 $isbn =	$_GET['add']/1;
-#$xmldat = simplexml_load_file('http://isbndb.com/api/books.xml?access_key=PEM3592Y&results=subjects&index1=isbn&value1='.$isbn);
-$xmldat = simplexml_load_file('ex.xml');
+$xmldat = simplexml_load_file('http://isbndb.com/api/books.xml?access_key=PEM3592Y&results=subjects&index1=isbn&value1='.$isbn);
+#$xmldat = simplexml_load_file('ex.xml');
 $title = $xmldat->BookList->BookData->Title;
 $author = $xmldat->BookList->BookData->AuthorsText;
 
@@ -26,7 +26,9 @@ if($quantity==1){
 mysqli_query($con,"INSERT INTO inventory VALUES ( ".$isbn." , '".$title."' , '".$author."' , ".$quantity." );");
 }
 else {
-mysqli_query($con,"UPDATE inventory SET quantity=".$quantity." WHERE isbn = ".$isbn." );");
+$updatequery="UPDATE inventory SET quantity=".$quantity." WHERE isbn = $isbn ;";
+echo $updatequery;
+mysqli_query($con,$updatequery);
 }
 mysqli_close($con);
 
