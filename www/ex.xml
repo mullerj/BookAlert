@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ISBNdb server_time="2013-09-28T14:28:16Z">
+<BookList total_results="1" page_size="10" page_number="1" shown_results="1">
+<BookData book_id="thief_of_time" isbn="0061031321" isbn13="9780061031328">
+<Title>Thief of time</Title>
+<TitleLong>Thief of time: a novel of Discworld</TitleLong>
+<AuthorsText>Terry Pratchett</AuthorsText>
+<PublisherText publisher_id="harpertorch">New York, N.Y. : HarperTorch, [2002], c2001.</PublisherText>
+<Subjects>
+<Subject subject_id="discworld_imaginary_place_fiction">Discworld (Imaginary place) -- Fiction</Subject>
+<Subject subject_id="fantasy_fiction_aaaa0">Fantasy fiction</Subject>
+</Subjects>
+</BookData>
+</BookList>
+</ISBNdb>
