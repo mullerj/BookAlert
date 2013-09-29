@@ -1,3 +1,4 @@
+<?php include("top.php") ?>
 <?php
 if (isset($_GET['add'])){
 echo "You provided a barcode<p>";
@@ -43,7 +44,6 @@ echo "-->";
 echo "Barcode not provided";
 }
 ?>
-<?php include("top.php") ?>
 <p>Scan your received comic book here</p>
 <a class="btn btn-primary" href="http://zxing.appspot.com/scan?ret=http://bookalert.me/bulkadd?add={CODE}">Scan</a>
 <?php include("bottom.php") ?>
