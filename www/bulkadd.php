@@ -39,7 +39,7 @@ echo "-->";
 echo "ISBN not provided";
 }
 ?>
-<script>
-setTimeout('location="http://zxing.appspot.com/scan?ret=http://bookalert.me/bulkadd?add={CODE}";',10000);
-</script><p>
-<a href="http://zxing.appspot.com/scan?ret=http://bookalert.me/bulkadd?add={CODE}">SCAN NOW</a>
+<?php include("top.php") ?>
+<p>Scan your received comic book here</p>
+<a class="btn btn-primary" href="http://zxing.appspot.com/scan?ret=http://bookalert.me/bulkadd?add={CODE}">Scan</a>
+<?php include("bottom.php") ?>
