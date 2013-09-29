@@ -18,10 +18,16 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="bottom.php">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="bulkadd.php">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="setupalert.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="top.php">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
