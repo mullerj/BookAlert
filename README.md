@@ -1,7 +1,7 @@
-Book Alert
+Comic Alert
 =========
 
-Book Alert allows a book owner to alert the community that they have a book they are willing to sell.  
-A book reader can post books or genres that they are interested in.  
-When a relevant book is available from a book owner, the book reader receive an alert.
-The book owner (seller) meets with the book reader (buyer) to sell the book.
+Comic Alert allows a comic book reader to be notified when a comic book of interest is available at a local comic book store.  
+A comic book reader posts comic book titles that they are interested in. 
+When a relevant comic book is available from a comic book store, the comic book reader receives an alert.
+The comic book store rep enters comic books as they are received (via barcode scan or manual entry).
