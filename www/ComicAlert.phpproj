@@ -21,6 +21,9 @@
     <Compile Include="bulkadd.php">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="setupalert.php">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="ex.xml">
